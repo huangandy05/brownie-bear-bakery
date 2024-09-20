@@ -5,11 +5,11 @@ import OurSelection from "@/components/OurSelection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center min-h-screen">
+    <main className="flex flex-col items-center min-h-screen">
       <Hero />
       <OurSelection />
       <HowToOrder />
       <FAQs />
-    </div>
+    </main>
   );
 }
