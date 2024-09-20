@@ -1,12 +1,12 @@
 import React from "react";
 import { motion, Transition, SVGMotionProps } from "framer-motion";
 
-interface Props extends SVGMotionProps {
+interface Props extends SVGMotionProps<SVGSVGElement> {
   isOpen?: boolean;
   color?: string;
   strokeWidth?: string | number;
   transition?: Transition;
-  lineProps?: any;
+  lineProps?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
   width?: number;
   height?: number;
 }
@@ -17,7 +17,7 @@ const MenuButton = ({
   height = 24,
   strokeWidth = 1,
   color = "#000",
-  transition = null,
+  transition = undefined,
   lineProps = null,
   ...props
 }: Props) => {
