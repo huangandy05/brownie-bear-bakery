@@ -39,7 +39,7 @@ export default function FAQs() {
               <br />
               Generally the{" "}
               <span className="font-bold">
-                cut off time to place an order is 8pm, TWOdays prior
+                cut off time to place an order is 8pm, TWO days prior
               </span>{" "}
               to the pickup date
               <br />
