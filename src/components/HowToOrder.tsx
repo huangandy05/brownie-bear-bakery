@@ -23,7 +23,7 @@ export default function HowToOrder() {
   return (
     <section id="how-to-order" className="py-12 bg-amber-100 w-full">
       <div className="container mx-auto px-4 md:px-6 flex flex-col text-center gap-12 ">
-        <h2 className="text-3xl  text-gray-900 sm:text-4xl">HOW TO ORDER</h2>
+        <h2 className="text-4xl  text-gray-900 sm:text-4xl">HOW TO ORDER</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {steps.map((step) => (
             <div
