@@ -10,7 +10,7 @@ export default function Hero() {
   };
   return (
     <section className="py-12 md:py-24">
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1 space-y-4 text-center md:text-left">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl">
