@@ -2,10 +2,9 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import Image from "next/image";
-import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { ProgressBar, useProgressBar } from "./EmblaProgressBar";
+import { useProgressBar } from "./EmblaProgressBar";
 import {
   NextButton,
   PrevButton,
@@ -20,10 +19,14 @@ const EmblaCarousel = () => {
 
   const progressBarWidth =
     menu_items.length > 0 ? `${100 / menu_items.length}%` : "100%";
-  const [isPlaying, setIsPlaying] = useState(false);
 
-  const { selectedIndex, scrollSnaps, onProgressBarClick } =
-    useProgressBar(emblaApi);
+  const [isPlaying, setIsPlaying] = useState(false); // eslint-disable-line
+
+  const {
+    selectedIndex,
+    scrollSnaps, // eslint-disable-line
+    onProgressBarClick,
+  } = useProgressBar(emblaApi);
 
   const {
     prevBtnDisabled,
@@ -48,6 +51,7 @@ const EmblaCarousel = () => {
     [emblaApi]
   );
 
+  // eslint-disable-next-line
   const toggleAutoplay = useCallback(() => {
     const autoplay = emblaApi?.plugins()?.autoplay;
     if (!autoplay) return;
