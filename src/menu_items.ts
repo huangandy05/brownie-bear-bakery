@@ -16,12 +16,12 @@ export const menu_items = [
   {
     name: "Mochi",
     description:
-      "Mochi brownies are a chewy and fudgy brownie with a layer of mochi on top. They are a unique and delicious treat for any occasion.",
+      "Mochi brownies are a chewy and fudgy brownie with a layer of mochi on top. They are a unique treat for any occasion.",
     image: "/mochi.svg",
     price: 69.99,
   },
   {
-    name: "Brown butter chocolate",
+    name: "Brown butter choc",
     description:
       "For the chocolate lovers. They are a delicious treat for any occasion.",
     image: "/brown_butter_choc.svg",
