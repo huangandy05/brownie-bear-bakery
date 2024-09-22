@@ -9,7 +9,7 @@ import {
 export default function FAQs() {
   return (
     <section id="faqs" className="py-12 w-full">
-      <div className="container mx-auto px-8 md:max-w-screen-md">
+      <div className="container mx-auto px-8 max-w-screen-md">
         <h2 className="text-3xl text-center mb-6">FAQs</h2>
         <Accordion
           type="single"
@@ -24,10 +24,10 @@ export default function FAQs() {
               We are normally open for pickup:
               <br />
               <span className="font-bold">
-                Tuesday 3pm - 9pm; Saturday 12pm - 5pm
+                Tuesday 3pm - 9pm, Saturday 12pm - 5pm
               </span>
               <br />
-              However, openign times may change
+              However, opening times may change
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="how late" className="border-primary/30">
@@ -51,7 +51,7 @@ export default function FAQs() {
               How big is each brownie?
             </AccordionTrigger>
             <AccordionContent>
-              A full slap is 8x8 inches (20cmx20cm) and 5cm high, serving 8-12
+              A full slab is 8x8 inches (20cmx20cm) and 5cm high, serving 8-12
               <br />A half slab is 8x4 inches (20cmx10cm), serving 4-6
             </AccordionContent>
           </AccordionItem>

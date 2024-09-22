@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#d2691e] relative">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <div className="w-20 h-20 rounded-full bg-yellow-800 flex items-center justify-center">
+        <div className="w-20 h-20 flex items-center justify-center">
           <Image
             src="/footer-bear.svg"
             alt="Footer Bear"

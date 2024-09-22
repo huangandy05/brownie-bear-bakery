@@ -1,9 +1,4 @@
-import React, {
-  ComponentPropsWithRef,
-  useCallback,
-  useEffect,
-  useState,
-} from "react";
+import { useCallback, useEffect, useState } from "react";
 import { EmblaCarouselType } from "embla-carousel";
 
 type useProgressBarType = {
@@ -47,16 +42,4 @@ export const useProgressBar = (
     scrollSnaps,
     onProgressBarClick,
   };
-};
-
-type Proptype = ComponentPropsWithRef<"button">;
-
-export const ProgressBar: React.FC<Proptype> = (props) => {
-  const { children, ...restProps } = props;
-
-  return (
-    <button type="button" {...restProps}>
-      {children}
-    </button>
-  );
 };

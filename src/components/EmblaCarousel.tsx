@@ -72,12 +72,10 @@ const EmblaCarousel = () => {
   }, [emblaApi]);
 
   return (
-    <section id="dummy" className="py-12 pb-32 w-full items-center ">
+    <section id="dummy" className="pb-4 w-full items-center sm:hidden">
       <div className="container mx-auto flex flex-col text-center justify-center gap-4 w-full">
-        <h2 className="text-3xl mb-6">Dummy Carousel</h2>
-
         {/* Hide carousel if greater than sm */}
-        <div className="w-full sm:hidden">
+        <div className="w-full">
           <div className="embla w-full">
             <div className="embla__viewport" ref={emblaRef}>
               <div className="embla__container">
@@ -121,7 +119,7 @@ const EmblaCarousel = () => {
                 ))}
               </div>
               {/* Button */}
-              <div className="embla__buttons flex justify-center gap-3">
+              <div className="embla__buttons flex justify-center gap-3 px-4">
                 <PrevButton
                   onClick={() => onButtonAutoplayClick(onPrevButtonClick)}
                   disabled={prevBtnDisabled}

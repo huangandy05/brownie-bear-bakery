@@ -1,4 +1,3 @@
-import EmblaCarousel from "@/components/EmblaCarousel";
 import FAQs from "@/components/FAQs";
 import Hero from "@/components/Hero";
 import HowToOrder from "@/components/HowToOrder";
@@ -11,7 +10,6 @@ export default function Home() {
       <OurSelection />
       <HowToOrder />
       <FAQs />
-      <EmblaCarousel />
     </main>
   );
 }
