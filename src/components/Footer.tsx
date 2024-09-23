@@ -16,7 +16,7 @@ export default function Footer() {
       </div>
       <div className="container mx-auto px-4 py-12 h-48">
         <div className="mt-8 pt-8 border-t border-primary-foreground/30 text-center text-sm">
-          <p>&copy; 2024 Brownie Bear Bakery. All rights reserved.</p>
+          <p>&copy; 2024 Brownie Bear Bakery.</p>
         </div>
       </div>
     </footer>

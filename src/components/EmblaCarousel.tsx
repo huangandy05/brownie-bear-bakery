@@ -82,7 +82,7 @@ const EmblaCarousel = () => {
                 {/* Cards go here */}
                 {menu_items.map((item, index) => (
                   <div key={index} className="embla__slide">
-                    <Card className="w-full h-full pt-1 px-1 bg-[#ebd9d0] shadow-none border-none">
+                    <Card className="w-full h-full flex flex-col pt-1 px-1 bg-[#ebd9d0] shadow-none border-none">
                       <div className="relative aspect-square mx-3 mt-3">
                         <Image
                           src={item.image}
@@ -96,7 +96,7 @@ const EmblaCarousel = () => {
                       </CardHeader>
                       <CardContent>
                         <p className="text-sm">{item.description}</p>
-                        <p className="text-lg font-bold">{item.price}</p>
+                        {/* <p className="text-lg font-bold">{item.price}</p> */}
                       </CardContent>
                     </Card>
                   </div>

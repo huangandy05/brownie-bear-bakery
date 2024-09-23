@@ -1,30 +1,30 @@
 export const menu_items = [
   {
-    name: "Nutella",
-    description:
-      "Nutella brownies are a rich and fudgy brownie with a swirl of Nutella. They are the perfect treat for Nutella lovers.",
-    image: "/nutella.svg",
-    price: "$10-$20?",
-  },
-  {
-    name: "Biscoff",
-    description:
-      "Biscoff brownies are a perfect combination of fudgy brownies and Biscoff cookies. They are a delicious treat for any occasion.",
-    image: "/biscoff.svg",
-    price: "$10-$20?",
-  },
-  {
     name: "Mochi",
     description:
-      "Mochi brownies are a chewy and fudgy brownie with a layer of mochi on top. They are a unique treat for any occasion.",
+      "A delightful fusion of chewy mochi and rich, fudgy chocolate - a delicious twist on the classic brownie.",
     image: "/mochi.svg",
-    price: "$10-$20?",
+    price: "$15-$25",
   },
   {
     name: "Brown butter choc",
     description:
-      "For the chocolate lovers. They are a delicious treat for any occasion.",
+      "Rich and nutty with a deep, caramel-like taste, this fudgy goodness is perfect for the chocolate lovers.",
     image: "/brown_butter_choc.svg",
-    price: "$10-$20?",
+    price: "$15-$25",
+  },
+  {
+    name: "Nutella",
+    description:
+      "Where rich, fudgy goodness meets the creamy, hazelnut goodness of Nutella, this indulgent treat is hard to resist.",
+    image: "/nutella.svg",
+    price: "$20-$35",
+  },
+  {
+    name: "Biscoff",
+    description:
+      "Layered with creamy Biscoff spread and topped with crunch cookie crumbles, this brownie is a perfect balance of deep chocolate and cinnamon-spiced goodness.",
+    image: "/biscoff.svg",
+    price: "$20-$35",
   },
 ];

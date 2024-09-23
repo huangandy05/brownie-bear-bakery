@@ -16,7 +16,7 @@ export default function OurSelection() {
             {menu_items.map((item, index) => (
               <Card
                 key={index}
-                className="w-72 h-full pt-1 px-1 bg-[#ebd9d0] shadow-none border-none"
+                className="w-72 h-full flex  flex-col pt-1 px-1 bg-[#ebd9d0] shadow-none border-none"
               >
                 <div className="relative aspect-square mx-3 mt-3">
                   <Image
@@ -31,8 +31,10 @@ export default function OurSelection() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm">{item.description}</p>
-                  <p className="text-lg font-bold">{item.price}</p>
                 </CardContent>
+                {/* <CardContent className="mt-auto">
+                  <p className="text-lg font-bold">{item.price}</p>
+                </CardContent> */}
               </Card>
             ))}
           </div>
