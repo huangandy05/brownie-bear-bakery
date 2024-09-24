@@ -18,7 +18,7 @@ export default function FAQs() {
         >
           <AccordionItem value="opening times" className="border-primary/30">
             <AccordionTrigger className="text-left">
-              What are your opening hours/day?
+              What are your opening days/hours?
             </AccordionTrigger>
             <AccordionContent>
               We are normally open for pickup:
