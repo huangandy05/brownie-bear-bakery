@@ -14,7 +14,7 @@ export default function FAQs() {
         <Accordion
           type="single"
           collapsible
-          className="w-full mx-auto max-w-2xl"
+          className="w-full mx-auto max-w-6xl"
         >
           <AccordionItem value="opening times" className="border-primary/30">
             <AccordionTrigger className="text-left">
