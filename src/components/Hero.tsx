@@ -45,7 +45,7 @@ export default function Hero() {
           </div>
           {/* Image */}
           {/* <div className="flex-1 flex justify-center md:justify-end"> */}
-          <div className="relative w-5/6 max-w-sm aspect-square border">
+          <div className="relative w-5/6 max-w-sm aspect-square">
             <Image
               src="/hero_section_image.svg"
               alt="Hero Image"
