@@ -22,8 +22,24 @@ export default function Hero() {
               more. Just trust me you'll come back for more!
             </p>
             <div className="space-y-4 md:space-y-0">
-              <Button variant={"default"} onClick={openOrderLink}>
+              <Button
+                variant={"default"}
+                className="mr-3"
+                onClick={openOrderLink}
+              >
                 Order Now
+              </Button>
+              <Button
+                variant="secondary"
+                onClick={() => {
+                  window.open(
+                    "https://www.instagram.com/brownie_bear_bakery/",
+                    "_blank",
+                    "noopener,noreferrer"
+                  );
+                }}
+              >
+                Contact us
               </Button>
             </div>
           </div>
