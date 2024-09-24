@@ -23,7 +23,7 @@ export const menu_items = [
   {
     name: "Biscoff",
     description:
-      "Layered with creamy Biscoff spread and topped with crunch cookie crumbles, this brownie is a perfect balance of deep chocolate and cinnamon-spiced goodness.",
+      "Topped with crunchy cookie crumbles, this brownie is a perfect balance of deep chocolate and creamy biscoff.",
     image: "/biscoff.svg",
     price: "$20-$35",
   },
