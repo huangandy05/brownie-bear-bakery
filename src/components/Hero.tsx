@@ -18,8 +18,8 @@ export default function Hero() {
             </h1>
             <p className="lg:max-w-lg md:max-w-md  px-10 sm:px-0 md:text-xl/relaxed lg:text-based/relaxed xl:text-xl/relaxed">
               We make the best brownies fresh from the oven everyday. Just try
-              and you'll fall in love. We've got mochi, matcha choco and so much
-              more. Just trust me you'll come back for more!
+              and you'll fall in love. We've got mochi, matcha, choco and so
+              much more. Just trust me you'll come back for more!
             </p>
             <div className="space-y-4 md:space-y-0">
               <Button
