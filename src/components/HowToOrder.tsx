@@ -14,7 +14,7 @@ const steps = [
   },
   {
     image: Home,
-    text: "Come to my house and pick it up!",
+    text: "Arrange for pick up and enjoy!",
     step: 3,
   },
 ];
