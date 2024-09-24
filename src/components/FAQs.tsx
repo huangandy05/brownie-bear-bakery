@@ -10,7 +10,7 @@ export default function FAQs() {
   return (
     <section id="faqs" className="py-12 w-full">
       <div className="container mx-auto px-8 max-w-screen-md">
-        <h2 className="text-3xl text-center mb-6">FAQs</h2>
+        <h2 className="text-4xl sm:text-5xl text-center mb-6">FAQs</h2>
         <Accordion
           type="single"
           collapsible

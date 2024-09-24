@@ -8,7 +8,7 @@ export default function OurSelection() {
   return (
     <section id="menu" className="py-12 md:pt-12 ">
       <div className="container mx-auto flex flex-col items-center gap-8 w-screen">
-        <h2 className="text-4xl sm:text-4xl">OUR SELECTION</h2>
+        <h2 className="text-4xl sm:text-5xl">OUR SELECTION</h2>
 
         {/* New design -> if md, show 2 by 2, if lg, show 4x1 */}
         <div className="hidden sm:block">
