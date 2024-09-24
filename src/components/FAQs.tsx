@@ -27,7 +27,8 @@ export default function FAQs() {
                 Tuesday 3pm - 9pm, Saturday 12pm - 5pm
               </span>
               <br />
-              However, opening times may change
+              However, opening times may change - please follow our instagram
+              page @brownie_bear_bakery for any updates!
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="how late" className="border-primary/30">
