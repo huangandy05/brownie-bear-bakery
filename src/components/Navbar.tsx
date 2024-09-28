@@ -26,6 +26,7 @@ export default function Navbar() {
   ) => {
     e.preventDefault();
     setIsOpen(false);
+    
     setTimeout(() => {
       const element = document.querySelector(href);
         if (element) {
