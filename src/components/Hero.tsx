@@ -11,15 +11,16 @@ export default function Hero() {
   return (
     <section className="py-12 md:py-24">
       <div className="container mx-auto px-4 md:px-16 max-w-6xl">
-        <div className="flex flex-col md:flex-row items-center gap-8 ">
-          <div className="flex-1 space-y-4 text-center md:text-left">
-            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl">
-              DELICIOUS BROWNIES
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+          <div className="space-y-4 text-center md:text-left">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl">
+              Welcome to Brownie Bear Bakery!
+              {/* 🐻🍫 */}
+              {/* DELICIOUS BROWNIES */}
             </h1>
-            <p className="lg:max-w-lg md:max-w-md  px-10 sm:px-0 md:text-xl/relaxed lg:text-based/relaxed xl:text-xl/relaxed">
-              We make the best brownies fresh from the oven everyday. Just try
-              and you'll fall in love. We've got mochi, matcha, choco and so
-              much more. Just trust me you'll come back for more!
+            <p className="lg:max-w-lg md:max-w-md  px-10 sm:px-0 md:text-lg/relaxed lg:text-based/relaxed xl:text-xl/relaxed">
+              Delicious, freshly baked brownies made to perfection. Place your
+              order for pickup today!
             </p>
             <div className="space-y-4 md:space-y-0">
               <Button
