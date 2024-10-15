@@ -5,12 +5,13 @@ export default function Footer() {
   return (
     <footer className="bg-[#d2691e] relative py-12">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <div className="w-20 h-20 flex items-center justify-center">
+        <div className="w-20 h-20 flex items-center justify-center rounded-full bg-[#58411bfe]">
           <Image
-            src="/footer-bear.svg"
+            src="/bear_footer.png"
             alt="Footer Bear"
             width="80"
             height="80"
+            className=""
           />
         </div>
       </div>
