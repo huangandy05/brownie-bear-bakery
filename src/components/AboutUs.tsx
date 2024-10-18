@@ -15,7 +15,7 @@ export default function AboutUs() {
                             className="object-cover outline outline-[10px] outline-yellow-950 rounded-full"
                         />
                     </div>
-                    <div className="text-center md:text-left">
+                    <div className="text-center md:text-left max-w-md mx-auto md:mx-0">
                         <p className="text-lg leading-relaxed text-gray-700">
                             Brownie Bear Bakery started with a simple idea: sharing a sweet treat with friends. It all began with my signature Mochi Brownies, which quickly became a hit at parties and gatherings. After seeing how much everyone loved them, I thought, why not share these delicious treats with more people?
                             I ensure to use only the best ingredients and bake everything fresh to order. Whether you’re a fan of classic fudgy brownies or adventurous flavours like Biscoff, there’s something for everyone.
