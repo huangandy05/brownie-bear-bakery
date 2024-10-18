@@ -29,10 +29,12 @@ export default function Navbar() {
 
     setTimeout(() => {
       const element = document.querySelector(href);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 150);
+        if (element) {
+            const offset = window.innerWidth >= 768 ? 50 : 150;
+            const topPosition = element.getBoundingClientRect().top + window.scrollY - offset;
+            window.scrollTo({ top: topPosition, behavior: "smooth" });
+        }
+    }, 50);
   };
 
   useEffect(() => {
@@ -57,6 +59,8 @@ export default function Navbar() {
               className="h-12 w-auto"
               width="100"
               height="100"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              style={{ cursor: "pointer" }}
             />
           </div>
           <div className="hidden md:block ">
